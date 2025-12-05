@@ -1,0 +1,381 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#navCont{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+     background-color: white;
+     padding:15px 20px;
+     border-bottom: 1px solid black;
+     
+     
+    
+
+}
+#logo-img{
+    height: 120px;
+    width: 120px;
+    margin-right: 40px;
+    
+}
+.nav{
+    text-decoration: none;
+    font-size: 17px;
+    padding: 8px 12px; 
+    color:black;
+    font-weight: 1000;
+    transition:border-bottom 0.2s;
+}
+.nav:hover{ 
+    border-bottom: 5px solid green;
+    
+}
+
+@media (max-width:768px)
+{
+    #navCont{
+        flex-wrap: wrap;
+
+    }
+    #logo-img{
+        height: 70px;
+        width: 70px;
+        margin:0;
+    }
+    .nav{
+        font-size: 15px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#banner{
+     margin-top: 30px;
+
+}
+#banner-pho{
+    width: 100%;
+    height:auto;
+    display: block;
+}
+
+
+
+
+
+
+
+#prod{
+    text-align: center;
+    font-weight: 900;
+    color: #09651B ;
+    font-size: 2em;
+    margin-top:60px;
+    
+}
+
+#products{
+    margin-top: 30px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+.prod-box{
+    width:350px;
+    background-color:#d0f28c;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.textpr{
+    font-size:17px;
+    font-weight: normal;
+    margin:15px 0;
+}
+.read{
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: #09651B ;
+    border-radius: 20px;
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    border:none;
+    cursor: pointer;
+    transition:0.4s;
+
+
+    }
+    .read:hover{
+        width:160px;
+        
+        
+    }
+    .p-img{
+        height: 130px;
+        
+    }
+   
+
+    .btn-img{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #supply{
+        margin-top: 30px;
+        text-align: center;
+        height: 700px;
+        width:90%;
+        background-color: white;
+    }
+    #hsupply{
+        font-size: 2em;
+    }
+    #supplydesc{
+        display: flex;
+        margin-top: 30px;
+        font-size: 20px;
+        
+    }
+    #supplyimg{
+        height: 500px;
+        margin:0 40px 0 150px;
+    }
+    #psupply{
+        text-align: justify;
+    }
+    #supplybtn{
+        height: 50px;
+        width:250px;
+        background-color: green;
+        border-radius: 20px;
+        color: white;
+        font-size: 20px;
+        margin: 10px 0 0 800px;
+        
+        
+    }
+
+    #strength{
+        height: 500px ;
+        width:100%;
+        background-color: white;
+        
+        
+    }
+    #h-stren{
+        text-align: center;
+        font-size: 30px;
+    }
+    #str-cont{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+
+
+    }
+    .str-box{
+        height: 250px;
+        width:250px;
+        margin: 50px 30px 0 0 ;
+        background-color:  white;
+        border: 3px solid green;
+        border-radius: 10px;
+        padding-left: 10px;
+        
+        justify-content: center;
+        align-items: center;
+        
+
+        
+    }
+    .str-box:hover{
+        height: 265px;
+        width:265px;
+        border:5px solid green;
+        transition: 0.5s ease-out 0s;
+        
+    }
+    .txt-str{
+        margin-top:150px;
+    }
+    .p-str{
+        text-align: center;
+        font-size: 100px;
+        font-weight: 900;
+        color: gray;
+        margin-top: 30px;
+
+        
+    }
+    .img-stre{
+        height: 100px;
+    }
+    #img-manu{
+        background-image: url(/image/manufacture.png);
+        background-size: cover;
+    }
+    #img-glo{
+        background-image: url(/image/global2.jpg);
+        background-size: cover;
+    }
+    #img-sus{
+        background-image: url(/image/sustainability.jpg);
+        background-size: cover;
+    }
+    #img-sup{
+        background-image: url(/image/supply.avif);
+        background-size: cover;
+    }
+    .h-str{
+        margin-top: 30px;
+        font-size:30px ;
+        color: black;
+    }
+
+
+
+
+
+
+
+
+    #footer{
+        height: 600px;
+        width:100%;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: green;
+    }
+    .footer-c{
+        height: 500px;
+        width:250px;
+        margin:50px 30px 0 0;
+        padding-left: 20px;
+        color: white;
+    }
+    #logo-e{
+        height: 100px;
+        padding-left: 70px;
+    }
+    .img-e{
+        height: 30px;
+        padding: 20px;
+    }
+    #p-e{
+        padding-top:40px;
+        font-size: 20px;
+        color:white;
+
+    }
+    #social{
+        display:flex;
+    }
+    #btn-e{
+        height: 40px;
+        width:180px;
+        font-size: 15px;
+        color:white;
+        background-color: greenyellow;
+        margin: 30px;
+    }
+    .info{
+        display: flex;
+        margin-top: 30px;
+    }
+    .info-he{
+        font-size:30px;
+        color: white;
+
+    }
+    .info-img{
+        height: 20px;
+    }
+    #list-links{
+        padding:20px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+   #footer-join{
+    padding: 20px;
+
+    }
+    .input{
+        height: 40px;
+        width:250px;
+        border-radius: 10px;
+
+    }
+    #sub{
+        height: 30px;
+        width:200px;
+        border-radius: 20px;
+        color: white;
+        font-size: 15px;
+        background-color: blue;
+
+    }
+ 
